@@ -1,0 +1,75 @@
+/********************************/
+/*  Stylesheet para index.html  */
+/********************************/
+
+/******************** FONTS ********************/
+@font-face {
+    font-family: "titulo";
+    src: url("../fonts/Dead\ Kansas.ttf");
+}
+@font-face {
+    font-family: "texto";
+    src: url("../fonts/Tungsten-Bold.ttf");
+}
+@font-face {
+    font-family: "extra";
+    src: url("../fonts/Dead\ Font\ Walking.otf");
+}
+#navbarSupportedContent a{
+    font-family: extra;
+    color: #E1A124;
+}
+
+h1 {font-family: titulo;
+    color: yellow;}
+
+h3,h4 {font-family: texto;
+    color: black;}
+
+#intro h5 {
+    font-family: extra;
+    color: white;}
+
+#accordion, #accordion h5{
+    font-family: extra;
+    color: black}
+
+h6 {
+    font-family: Arial;
+    color: white;}
+
+#botoncontacto button{
+    font-family: extra;
+    background-color: #FFFF00!important;
+    color: black!important;
+    }
+#disclaimer button{
+    background-color: white!important;
+    color: black!important;
+    }
+#hero a{
+    font-family: extra;
+    background-color: #FFFF00!important;
+    color: black!important;
+    }
+/******************* COLORS ********************/
+.carousel-caption {--bs-bg-opacity: .5;}
+
+/******************* SIZES ********************/
+
+
+
+/******************* IMAGES ********************/
+#logo {height: 50px;}
+
+
+body{background-image: url(../img/back2.jpg);
+    }
+
+.bg-nav{
+    background-color: rgba(30, 23, 23, 0.765);
+}
+
+
+
+/******************* OTHER FIXES ********************/

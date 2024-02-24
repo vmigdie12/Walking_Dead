@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walking Dead Fan Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./img/favico.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <!--                NAVIGATION BAR                -->
+    <nav class="navbar navbar-expand-lg bg-nav sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img id="logo" src="./img/favicon2.webp" alt="favicon"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="background-color: white;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://thewalkingdeadshop.amc.com/" target="_blank">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seasons">Seasons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#characters">Characters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#related">Related Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+    <div id="wrapper" class="container">
+        <!--              HERO SECTION              -->
+        <header id="hero" class="d-flex justify-content-center align-items-end">
+            <div>
+                <div>
+                    <img src="./img/thewalking2.jpg" class="img-fluid text-center"  alt="...">
+                </div>
+                <div id="botoncontacto" class="text-center">
+                    <a class="btn btn-primary btn-lg mt-4 mb-4" role="button" aria-pressed="true" href="https://www.foxtv.es/series/fox/the-walking-dead" target="_blank" >Official Web</a>
+                </div>
+            </div>
+            
+        </header>
+
+        <main>
+            <!--############### INTRODUCTION ###############-->
+            <section id="intro" class="p-5">
+                <h1 class="text-center mb-5 display-3 mt-5">Introduction</h1>
+                <!-- GRID 2 COLUMNS -->
+                <div class="container ">
+                    <div class="row g-5 mt-2">
+                        <!--##### COLUMN 1 #####-->
+                        <div class="col-12 col-md-6">
+                            <h5 class="text-center mt-5">The Walking Dead is a compelling television series that delves into a post-apocalyptic world, where humanity struggles to survive in a desolate landscape overrun by zombies. Based on Robert Kirkman's eponymous comic series, the show follows a diverse group of survivors as they face not only the constant threats of the undead but also the internal and external challenges that arise in a world without rules or social structures. As characters evolve, the series explores themes such as survival, morality, and loyalty, offering an exhilarating and often heart-wrenching experience that has captivated audiences worldwide.
+                            </h5>
+
+                            <!-- ACCORDION FROM BOOTSTRAP V5.3 -->
+
+                            <div class="accordion accordion-flush w-80 mx-auto mt-5" id="accordion">
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Watch the trailer ! 
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show bg-black" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div class="embed-responsive" style="padding-bottom: 56.25%; position: relative;">
+                                                <iframe src="https://www.youtube.com/embed/sfAc2U20uyg?si=dkO6dYU1QzonwZTW" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        More interesting info
+                                    </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h5>
+                                                The Walking Dead premiered on October 31, 2010. It was exclusively broadcast on cable channel AMC in the United States and internationally through the Fox Networks Group and Disney+. The series concluded on November 20, 2022, after eleven seasons and 177 episodes. Andrew Lincoln played the lead character of Rick Grimes until his departure from the show in the ninth season.
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!--##### COLUMN 2 #####-->
+                        <div class="col-12 col-md-6">
+                            <img class="w-100" src="./img/rick.jpg" fluid alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--############### SEASONS ###############-->
+
+            <section id="seasons" class="p-5">
+                <h1 class="text-center mb-5 display-3 mt-2">Seasons</h1>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators"> 
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/s1.jpg" class="d-block w-100" alt="...">
+                        
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/s2.jpg" class="d-block w-100" alt="...">
+                        
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/s3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Season 3</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/s4.jpg" class="d-block w-100" alt="...">
+                        
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/s5.jpg" class="d-block w-100" alt="...">
+                        
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/s6.jpg" class="d-block w-100" alt="...">
+                        
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/s7.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Season 7</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/s8.jpg" class="d-block w-100" alt="...">
+                        
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/s9.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Season 9</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/s10.jpg" class="d-block w-100" alt="...">
+                        
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/s11.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
+
+            <!--############### CHARACTERS ###############-->
+            
+            <section id="characters" class="p-5">
+                <h1 class="text-center mb-5 display-3 mt-5">Characters</h1>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4 mt-2">
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/rick2.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="mb-0">Rick Grimes</h3>
+                                <p class="small text-muted">Andrew Lincoln</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/daryl.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="mb-0">Daryl Dixon</h3>
+                                <p class="small text-muted">Norman Reedus</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/michonne.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="mb-0">Michonne</h3>
+                                <p class="small text-muted">Danai Gurira</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/glenn.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="mb-0">Glenn Rhee</h3>
+                                <p class="small text-muted">Steven Yeun</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/carl.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="mb-0">Carl Grimes</h3>
+                                <p class="small text-muted">Chandler Riggs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/morgan2.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="mb-0">Morgan Jones</h3>
+                                <p class="small text-muted">Lennie James</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/negan.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="mb-0">Negan</h3>
+                                <p class="small text-muted">Jeffrey Dean</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/maggie.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="mb-0">Maggie Greene</h3>
+                                <p class="small text-muted">Lauren Cohan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/shane.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="mb-0">Shane Walsh</h3>
+                                <p class="small text-muted">Jon Bernthal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/carol.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="mb-0">Carol Peletier</h3>
+                                <p class="small text-muted">Melissa McBride</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--############### RELATED SERIES ###############-->
+            
+            <section id="related" class="p-5 mx-auto">
+                <h1 class="text-center mb-5 display-3 mt-5">Related Series</h1>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 text-center mt-2">
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/fearthe.jpg" alt="" class="card-img-top rounded" style="max-height: 200px; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/world.jpg" alt="" class="card-img-top rounded" style="max-height: 200px; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/tales3.jpg" alt="" class="card-img-top rounded" style="max-height: 200px; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/dead.jpg" alt="" class="card-img-top rounded" style="max-height: 200px; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/daryld.webp" alt="" class="card-img-top rounded" style="max-height: 200px; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card h-100 shadow-sm border-0 rounded">
+                            <img src="./img/theones.webp" alt="" class="card-img-top rounded" style="max-height: 200px; object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--############### CONTACT ###############-->
+            <section id="contact" class="p-5 mx-auto">
+                <h1 class="text-center mb-5 display-3 mt-2">Contact</h1>
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-md-12 offset-md-2">
+                            <div class="well well-sm">
+                                <form class="form-horizontal" method="post">
+                                        <div class="form-group mb-3">
+                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                            <div class="col-md-8">
+                                                <input id="fname" name="name" type="text" placeholder="Name" class="form-control" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                            <div class="col-md-8">
+                                                <input id="email" name="email" type="email" placeholder="Email Address" class="form-control" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                            <div class="col-md-8">
+                                                <input id="phone" name="phone" type="tel" placeholder="Phone" class="form-control" pattern="[0-9]+" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                            <div class="col-md-8">
+                                                <textarea class="form-control" id="message" name="message" placeholder="Your message" rows="7" required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <div class="col-md-8 text-center" id="botoncontacto">
+                                                <button type="submit" class="btn btn-primary btn-lg mt-3">Submit</button>
+                                            </div>
+                                        </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--############### FOOTER ###############-->
+        <footer class="bg-black text-white  text-center p-5 " >
+            <div class="container" >
+                <div>
+                    <img src="./img/footerimg.jpg" class="img-thumbnail" alt="...">
+                    
+                </div>
+                <div class="container">
+                    <div class="row text-center mt-4 justify-content-center">
+                        <div class="col-md-1 mt-2">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="./img/instagram.png" alt="" class="img-fluid">
+                        </a>
+                        </div>
+                        <div class="col-md-1 mt-2">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="./img/facebook.png" alt="" class="img-fluid">
+                        </a>
+                        </div>
+                        <div class="col-md-1 mt-2">
+                        <a href="https://www.twitter.com/" target="_    blank">
+                            <img src="./img/gorjeo.png" alt="" class="img-fluid">
+                        </a>
+                        </div>
+                        <div class="col-md-1 mt-2">
+                        <a href="https://www.gmail.com/" target="_blank">
+                            <img src="./img/gmail.png" alt="" class="img-fluid">
+                        </a>
+                        </div>
+                        <div class="col-md-1 mb-4 mt-2">
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img src="./img/youtube.png" alt="" class="img-fluid">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                    
+                <p>
+                    Web page made by: Victor de Miguel Diez
+                </p>
+                <p>
+                    Lenguajes de Marca
+                </p>
+                <p>
+                    1º DAM
+                </p>
+            <div id="disclaimer">
+                <button type="button" class="btn btn-primary mt-2 " data-bs-toggle="modal" data-bs-target="#exampleModalLive">
+                Disclaimer
+            </button>
+            </div>
+            
+            <div class="modal fade" id="exampleModalLive" tabindex="-1" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title fs-2" id="exampleModalLiveLabel">Disclaimer</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>This page is a class work of a Higher Degree in Multiplatform Application Development, specifically of the subject markup language, all rights are reserved by the official author of the series and the various distributors of the same.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
